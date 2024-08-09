@@ -198,3 +198,51 @@ transform: scale(1.1);
 .laptops .card-discription{
     text-align: center;
 }
+#smart-watches{
+    margin-top: 4%;
+}
+    .watches{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr) ;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+        padding: 100px;
+    }
+    .watches .card{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: rgba(252, 251, 251, 0.95);
+         box-shadow: 0px 0px 6px gray;
+    }
+    .watches .card-img{
+        box-shadow: 0px 0px 1px gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 15rem;
+    }
+    .watches .card-img img{
+        width: 70%; 
+        border-radius: 5px; 
+    transition: transform 0.4s ease; 
+    }
+    
+    
+    .watches .card img:hover {
+    transform: scale(1.1);
+    }
+    .watches .card-discription{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        background-color: rgba(242, 237, 237, 0.906);
+
+            text-align: center;
+
+    }
