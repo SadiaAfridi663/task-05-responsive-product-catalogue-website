@@ -246,3 +246,29 @@ transform: scale(1.1);
             text-align: center;
 
     }
+    footer{
+        margin-top: 4%;
+        background-image: linear-gradient(rgba(70, 69, 69, 0.5),rgba(70, 69, 69, 0.5)),url(./images/bg-img3.jpeg);
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 4px;
+        background-color: black;
+    }
+    .social-icons{
+        display: flex;
+        gap: 30px;
+        margin-top: 70px;    
+    }
+    .copy-right{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        width: 98vw;
+        background-color: rgba(235, 228, 228, 0.057);
+    }
