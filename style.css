@@ -279,6 +279,27 @@ transform: scale(1.1);
             gap: 60px;
             grid-template-columns: repeat(3, 1fr);
         }
+        .watches{
+            gap: 70px;
+            padding: 50px;
+        }
+          .watches .card{
+            display: flex;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+          }
+          .watches .card-img{
+            width: 100%;
+          }
+          
+        .watches .card .card-img img{
+            width: 60%;
+        } 
+        .watches .card .card-discription{
+           height: 100px;
+        }
+    
     }
     @media (max-width: 860px){
         .catagories h3{
@@ -287,6 +308,12 @@ transform: scale(1.1);
         .catagories ul li{
             font-size: 15px;
             margin-left: -15px;
+        }
+        .laptops{
+            display: grid;
+            justify-content: space-evenly;
+            gap: 70px;
+            grid-template-columns: repeat(2, 1fr);
         }
     }
     @media (max-width: 768px) {
@@ -377,6 +404,38 @@ transform: scale(1.1);
             grid-template-columns: 1fr;
             padding: 100px;
         } 
+        .laptops{
+            display: grid;
+            justify-content: center;
+            padding: 70px;
+            gap: 70px;
+            grid-template-columns:  1fr;
+        }
+   
+        .watches{
+            display: grid;
+            grid-template-columns:repeat(1, 1fr) ;
+            justify-content:center;
+            align-items: center;
+            /* gap: 70px; */
+            margin-left: 50px;
+        }
+     
+          .watches .card{
+            display: flex;
+            width: 90%;
+    
+          }
+          .watches .card-img{
+            width: 100%;
+          }
+          
+        .watches .card .card-img img{
+            width: 50%;
+        } 
+        .watches .card .card-discription{
+           height: 100px;
+        }
     }
     @media (max-width:440px) {
         .mobiles{
@@ -388,5 +447,10 @@ transform: scale(1.1);
             height: 400px;
             width: 300px;
           
+         }
+         .watches .card{
+            height: 300px;
+            width: 300px;
+            margin-left: -50px;
          }
         }
