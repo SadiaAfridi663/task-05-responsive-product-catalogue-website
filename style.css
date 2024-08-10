@@ -272,3 +272,121 @@ transform: scale(1.1);
         width: 98vw;
         background-color: rgba(235, 228, 228, 0.057);
     }
+    @media (max-width: 992px){
+        .mobiles{
+            display: grid;
+            justify-content: space-evenly;
+            gap: 60px;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    @media (max-width: 860px){
+        .catagories h3{
+            font-size: 17px;
+        }
+        .catagories ul li{
+            font-size: 15px;
+            margin-left: -15px;
+        }
+    }
+    @media (max-width: 768px) {
+     
+     
+        .search{
+            width: 200px;
+            
+        }
+        label{
+            padding: 11px 8px 7px;
+        }
+        .catagories{
+            width: 150px;
+            height: 200px;
+       
+        }
+        .catagories ul li a{
+            line-height: 25px;
+        }
+       .home-img h2{
+            font-size: 13px;
+        }
+        .home-img{
+            font-size: 14px;
+            width: 65%;
+        }
+        .home-img img{
+            width: 60%;
+        }
+        .mobiles{
+            display: grid;
+            justify-content: space-evenly;
+            gap: 70px;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 40px;
+        }
+    
+    }
+    @media (max-width: 576px){
+        nav{
+            display: flex;
+            justify-content: space-around;
+        }
+        .search{
+            width: 150px;
+            height: 30px;
+            
+        }
+        nav input[type="search"]{
+            padding:0px 20px;
+            height: 30px;
+        
+        }
+        label{
+            padding: 7px 8px 11px;
+        }
+        .imgs{
+            display: flex;
+            gap: 5px;
+        }
+        svg{
+            width: 30px;
+            height: 30px;
+        } 
+        #home{
+            padding: 0px 5px;
+        }
+        .home-img{
+            height: 140px;
+        }
+        .catagories{
+            height: 150px;
+            width: 120px;
+    
+        }
+        .catagories h3{
+            margin-top: 5px;
+            margin-bottom: -4px;
+        }
+        .catagories ul li a{
+            line-height: 25px;
+        }
+        .mobiles{
+            display: grid;
+            justify-content: space-evenly;
+            gap: 60px;
+            grid-template-columns: 1fr;
+            padding: 100px;
+        } 
+    }
+    @media (max-width:440px) {
+        .mobiles{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .mobiles .card{
+            height: 400px;
+            width: 300px;
+          
+         }
+        }
